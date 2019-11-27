@@ -99,7 +99,7 @@ Where are my Flows used?
 Where are my Custom Fields used?
 --------------------------------
 
-```sfdx force:data:soql:query --usetoolingapi --query "SELECT MetadataComponentId, MetadataComponentName, MetadataComponentType, RefMetadataComponentId, RefMetadataComponentName, RefMetadataComponentType FROM MetadataComponentDependency Where RefMetadataComponentType = 'CustomFIeld'"```
+```sfdx force:data:soql:query --usetoolingapi --query "SELECT MetadataComponentId, MetadataComponentName, MetadataComponentType, RefMetadataComponentId, RefMetadataComponentName, RefMetadataComponentType FROM MetadataComponentDependency Where RefMetadataComponentType = 'CustomField'"```
 
 | | Custom Field |
 | ------ | ------ |
